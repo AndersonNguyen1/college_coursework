@@ -1,0 +1,41 @@
+Script started on Fri 08 Feb 2019 06:39:33 PM PST
+]0;andersvn@laguna:hw2[andersvn@laguna hw2]$ g++ -g queue.c
+]0;andersvn@laguna:hw2[andersvn@laguna hw2]$ ./a.out 1 100000[K
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 4.51e-08 seconds 
+
+]0;andersvn@laguna:hw2[andersvn@laguna hw2]$ ./a.out 1 10000[1@0
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 5.5e-08 seconds 
+
+]0;andersvn@laguna:hw2[andersvn@laguna hw2]$ ./a.out 10 100000[1@0
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 5.07e-08 seconds 
+
+]0;andersvn@laguna:hw2[andersvn@laguna hw2]$ ./a.out 100 100000[1@0
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 5.09e-08 seconds 
+
+]0;andersvn@laguna:hw2[andersvn@laguna hw2]$ ./a.out 1000 10000[35G[P[41G[35G[1@0[42G0[1@0
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 1.002e-07 seconds 
+
+]0;andersvn@laguna:hw2[andersvn@laguna hw2]$ ./a.out 10000 1000000[1@0
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 5.488e-07 seconds 
+
+]0;andersvn@laguna:hw2[andersvn@laguna hw2]$ ./a.out 100000 1000000[1@0
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 5.4529e-06 seconds 
+
+]0;andersvn@laguna:hw2[andersvn@laguna hw2]$ exit
+exit
+
+Script done on Fri 08 Feb 2019 06:40:48 PM PST

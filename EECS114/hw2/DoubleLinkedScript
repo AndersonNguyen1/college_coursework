@@ -1,0 +1,56 @@
+Script started on Fri 08 Feb 2019 11:16:35 PM PST
+]0;andersvn@zuma:hw2[andersvn@zuma hw2]$ g++ -g dlist.c -o A[KDDL[K[K[KAndersonDDL
+]0;andersvn@zuma:hw2[andersvn@zuma hw2]$ ./ A[KAndersonDDL 1
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 1e-07 seconds 
+
+]0;andersvn@zuma:hw2[andersvn@zuma hw2]$ ./AndersonDDL 1[K10
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 1e-07 seconds 
+
+]0;andersvn@zuma:hw2[andersvn@zuma hw2]$ ./AndersonDDL 100
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 1e-07 seconds 
+
+]0;andersvn@zuma:hw2[andersvn@zuma hw2]$ ./AndersonDDL 1000
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 2.5e-07 seconds 
+
+]0;andersvn@zuma:hw2[andersvn@zuma hw2]$ ./AndersonDDL 10000
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 1.75e-06 seconds 
+
+]0;andersvn@zuma:hw2[andersvn@zuma hw2]$ ./AndersonDDL 100000
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 2.015e-05 seconds 
+
+]0;andersvn@zuma:hw2[andersvn@zuma hw2]$ ./AndersonDDL 1000000
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 0.0003119 seconds 
+
+]0;andersvn@zuma:hw2[andersvn@zuma hw2]$ ./AndersonDDL 10000000
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 0.0027239 seconds 
+
+]0;andersvn@zuma:hw2[andersvn@zuma hw2]$ ./AndersonDDL 100000000
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 0.0026083 seconds 
+
+]0;andersvn@zuma:hw2[andersvn@zuma hw2]$ ./AndersonDDL 1000000000
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+ 0.28563 seconds 
+
+]0;andersvn@zuma:hw2[andersvn@zuma hw2]$ exit
+exit
+
+Script done on Fri 08 Feb 2019 11:18:40 PM PST
