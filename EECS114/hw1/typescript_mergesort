@@ -1,0 +1,283 @@
+Script started on Wed 23 Jan 2019 04:12:34 PM PST
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ make mergesorty[K
+g++  -O3 -g -o mergesort.o -c mergesort.cc
+g++ -O3 -g -o mergesort driver.o sort.o mergesort.o
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 1
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 1
+
+Quicksort: 3e-06 seconds ==> 0.333333 million keys per second
+	(Array is sorted.)
+My sort: 1e-06 seconds ==> 1 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 1[K2
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 2
+
+Quicksort: 2e-06 seconds ==> 1 million keys per second
+	(Array is sorted.)
+My sort: 0 seconds ==> inf million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 2[K4
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 4
+
+Quicksort: 2e-06 seconds ==> 2 million keys per second
+	(Array is sorted.)
+My sort: 0 seconds ==> inf million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 4[K8
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 8
+
+Quicksort: 3e-06 seconds ==> 2.66667 million keys per second
+	(Array is sorted.)
+My sort: 0 seconds ==> inf million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 8[K16
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 16
+
+Quicksort: 4e-06 seconds ==> 4 million keys per second
+	(Array is sorted.)
+My sort: 1e-06 seconds ==> 16 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 16[K[K2[K32
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 32
+
+Quicksort: 4e-06 seconds ==> 8 million keys per second
+	(Array is sorted.)
+My sort: 2e-06 seconds ==> 16 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 32[K[K64
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 64
+
+Quicksort: 7e-06 seconds ==> 9.14286 million keys per second
+	(Array is sorted.)
+My sort: 4e-06 seconds ==> 16 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 64[K[K128
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 128
+
+Quicksort: 0.00011 seconds ==> 1.16364 million keys per second
+	(Array is sorted.)
+My sort: 8e-06 seconds ==> 16 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 128[K[K[K256
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 256
+
+Quicksort: 0.000116 seconds ==> 2.2069 million keys per second
+	(Array is sorted.)
+My sort: 1.6e-05 seconds ==> 16 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 256[K[K[K4[K512
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 512
+
+Quicksort: 0.000119 seconds ==> 4.30252 million keys per second
+	(Array is sorted.)
+My sort: 3.3e-05 seconds ==> 15.5152 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 512[K[K[K1024
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 1024
+
+Quicksort: 0.000179 seconds ==> 5.72067 million keys per second
+	(Array is sorted.)
+My sort: 6.7e-05 seconds ==> 15.2836 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 1024[K[K[K[K2048
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 2048
+
+Quicksort: 0.000286 seconds ==> 7.16084 million keys per second
+	(Array is sorted.)
+My sort: 0.000141 seconds ==> 14.5248 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 2048[K[K[K[K4096
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 4096
+
+Quicksort: 0.000471 seconds ==> 8.69639 million keys per second
+	(Array is sorted.)
+My sort: 0.000384 seconds ==> 10.6667 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 4096[K[K[K[K8192
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 8192
+
+Quicksort: 0.001 seconds ==> 8.192 million keys per second
+	(Array is sorted.)
+My sort: 0.000674 seconds ==> 12.1543 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 8192[K[K[K[K16384
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 16384
+
+Quicksort: 0.001997 seconds ==> 8.20431 million keys per second
+	(Array is sorted.)
+My sort: 0.00148 seconds ==> 11.0703 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 16384[K[K[K[K[K32768
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 32768
+
+Quicksort: 0.004021 seconds ==> 8.14922 million keys per second
+	(Array is sorted.)
+My sort: 0.003066 seconds ==> 10.6875 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 32768[K[K[K[K[K65536
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 65536
+
+Quicksort: 0.008345 seconds ==> 7.85333 million keys per second
+	(Array is sorted.)
+My sort: 0.006361 seconds ==> 10.3028 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 65536[K[K[K[K[K131072
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 131072
+
+Quicksort: 0.017684 seconds ==> 7.4119 million keys per second
+	(Array is sorted.)
+My sort: 0.013511 seconds ==> 9.70113 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 131072[K[K[K[K[K[K262144
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 262144
+
+Quicksort: 0.034043 seconds ==> 7.70038 million keys per second
+	(Array is sorted.)
+My sort: 0.026459 seconds ==> 9.90756 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 262144[K[K[K[K[K[K524288
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 524288
+
+Quicksort: 0.070927 seconds ==> 7.39194 million keys per second
+	(Array is sorted.)
+My sort: 0.054893 seconds ==> 9.55109 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 524288[K[K[K[K[K[K1048576
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 1048576
+
+Quicksort: 0.154207 seconds ==> 6.7998 million keys per second
+	(Array is sorted.)
+My sort: 0.119626 seconds ==> 8.76545 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ 2097152
+2097152: Command not found.
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ 2097152[26G./mergesort 1048576[K[K[K[K[K[K[K2097152
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 2097152
+
+Quicksort: 0.32482 seconds ==> 6.45635 million keys per second
+	(Array is sorted.)
+My sort: 0.250266 seconds ==> 8.37969 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./mergesort 2097152[K[K[K[K[K[K[K4194304
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 4194304
+
+Quicksort: 0.637532 seconds ==> 6.57897 million keys per second
+	(Array is sorted.)
+Segmentation fault (core dumped)
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ exit
+exit
+
+Script done on Wed 23 Jan 2019 04:15:42 PM PST

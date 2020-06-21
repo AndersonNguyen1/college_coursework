@@ -1,0 +1,262 @@
+Script started on Wed 23 Jan 2019 03:20:24 PM PST
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ make insertion-sort
+g++  -O3 -g -o driver.o -c driver.cc
+g++  -O3 -g -o sort.o -c sort.cc
+g++  -O3 -g -o insertion-sort.o -c insertion-sort.cc
+g++ -O3 -g -o insertion-sort driver.o sort.o insertion-sort.o
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ,.[K[K./insertion-sort 1
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 1
+
+Quicksort: 3e-06 seconds ==> 0.333333 million keys per second
+	(Array is sorted.)
+My sort: 0 seconds ==> inf million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 1[K2
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 2
+
+Quicksort: 3e-06 seconds ==> 0.666667 million keys per second
+	(Array is sorted.)
+My sort: 0 seconds ==> inf million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 2[K4
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 4
+
+Quicksort: 4e-06 seconds ==> 1 million keys per second
+	(Array is sorted.)
+My sort: 0 seconds ==> inf million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 4[K8
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 8
+
+Quicksort: 3e-06 seconds ==> 2.66667 million keys per second
+	(Array is sorted.)
+My sort: 0 seconds ==> inf million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 8[K16
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 16
+
+Quicksort: 4e-06 seconds ==> 4 million keys per second
+	(Array is sorted.)
+My sort: 1e-06 seconds ==> 16 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 16[K[K32
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 32
+
+Quicksort: 5e-06 seconds ==> 6.4 million keys per second
+	(Array is sorted.)
+My sort: 1e-06 seconds ==> 32 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 32[K[K64
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 64
+
+Quicksort: 7e-06 seconds ==> 9.14286 million keys per second
+	(Array is sorted.)
+My sort: 2e-06 seconds ==> 32 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 64[K[K128
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 128
+
+Quicksort: 0.000104 seconds ==> 1.23077 million keys per second
+	(Array is sorted.)
+My sort: 7e-06 seconds ==> 18.2857 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 128[K[K[K256
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 256
+
+Quicksort: 0.000132 seconds ==> 1.93939 million keys per second
+	(Array is sorted.)
+My sort: 1.9e-05 seconds ==> 13.4737 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 256[K[K[K512
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 512
+
+Quicksort: 0.000116 seconds ==> 4.41379 million keys per second
+	(Array is sorted.)
+My sort: 5.2e-05 seconds ==> 9.84615 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 512[K[K[K1024
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 1024
+
+Quicksort: 0.000204 seconds ==> 5.01961 million keys per second
+	(Array is sorted.)
+My sort: 0.000167 seconds ==> 6.13174 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 1024[K[K[K[K2048
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 2048
+
+Quicksort: 0.000275 seconds ==> 7.44727 million keys per second
+	(Array is sorted.)
+My sort: 0.000538 seconds ==> 3.80669 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 2048409[K[K[K[K[K[K[K4096
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 4096
+
+Quicksort: 0.000542 seconds ==> 7.5572 million keys per second
+	(Array is sorted.)
+My sort: 0.002131 seconds ==> 1.9221 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 4096[K[K[K[K8192
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 8192
+
+Quicksort: 0.000968 seconds ==> 8.46281 million keys per second
+	(Array is sorted.)
+My sort: 0.007893 seconds ==> 1.03788 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 8192[K[K[K[K16384
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 16384
+
+Quicksort: 0.001893 seconds ==> 8.65504 million keys per second
+	(Array is sorted.)
+My sort: 0.028245 seconds ==> 0.580067 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 16384[K[K[K[K[K32768
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 32768
+
+Quicksort: 0.003803 seconds ==> 8.61636 million keys per second
+	(Array is sorted.)
+My sort: 0.113681 seconds ==> 0.288245 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 32768[K[K[K[K[K65536
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 65536
+
+Quicksort: 0.007808 seconds ==> 8.39344 million keys per second
+	(Array is sorted.)
+My sort: 0.48214 seconds ==> 0.135927 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 65536[K[K[K[K[K131072
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 131072
+
+Quicksort: 0.017282 seconds ==> 7.58431 million keys per second
+	(Array is sorted.)
+^[[AMy sort: 2.08503 seconds ==> 0.0628633 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 131072[43G65536[K[43G131072[K[K[K[K[K[K262144
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 262144
+
+Quicksort: 0.034353 seconds ==> 7.63089 million keys per second
+	(Array is sorted.)
+My sort: 8.49238 seconds ==> 0.0308681 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 262144[K[K[K[K[K[K524288
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 524288
+
+Quicksort: 0.078082 seconds ==> 6.71458 million keys per second
+	(Array is sorted.)
+My sort: 34.2128 seconds ==> 0.0153243 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ ./insertion-sort 524288[K[K[K[K[K[K1048576
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+
+N == 1048576
+
+Quicksort: 0.15865 seconds ==> 6.60937 million keys per second
+	(Array is sorted.)
+My sort: 136.288 seconds ==> 0.00769385 million keys per second
+	(Array is sorted.)
+	(Arrays are equal.)
+
+]0;andersvn@laguna:~/hw1[andersvn@laguna ~/hw1]$ 2[Kexit
+exit
+
+Script done on Wed 23 Jan 2019 03:27:33 PM PST
